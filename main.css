@@ -4,6 +4,8 @@
     --three: #d2544a;
     --four: #6f8197;
     --five: #1c375b;
+    --black: #000;
+    --light: #111;
 }
 
 *{
@@ -39,6 +41,78 @@ body{
 
 /*ABOUT*/
 .about{
-    
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.about .box1{
+    background-color: var(--three);
+    padding: 5%;
+}
+
+.about .box1 h2{
+    font-size: 30px;
+    color: var(--five);
+    font-family:'Poiret One', cursive;
+}
+
+.about .box1 p{
+    font-size: 19px;
+    color: var(--black);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about .box1 .icon{
+    font-size: 45px;
+    color: var(--five);
+    padding: 3%;
+}
+
+.about .box2{
+    background-color: var(--light);
+    padding: 5%;
+    border-bottom: var(--three) 15px solid;
+    padding-bottom: 2%;
+}
+
+.about .box2 h2{
+    font-size: 30px;
+    color: var(--three);
+    font-family:'Poiret One', cursive;
+}
+
+.about .box2 p{
+    font-size: 19px;
+    color: var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about .box2 .icon{
+    font-size: 45px;
+    color: var(--three);
+    padding: 3%;
+}
+
+.about .box3{
+    background-color: var(--light);
+    padding: 5%;
+}
+
+.about .box3 h2{
+    font-size: 30px;
+    color: var(--four);
+    font-family:'Poiret One', cursive;
+}
+
+.about .box3 p{
+    font-size: 19px;
+    color: var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about .box3 .icon{
+    font-size: 45px;
+    color: var(--four);
+    padding: 3%;
 }
 
