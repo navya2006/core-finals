@@ -1,0 +1,44 @@
+:root{
+    --primary-color: #cd4236;
+    --secondary-color: #f5f5f5;
+    --three: #d2544a;
+    --four: #6f8197;
+    --five: #1c375b;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
+}
+
+/*HOME*/
+.home{
+    background-image: url(images/ss.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home img{
+    height: 85%;
+    width: 85%;
+    border-left: var(--primary-color) 4px solid;
+    margin-top: 3%;
+}
+
+/*ABOUT*/
+.about{
+    
+}
+
