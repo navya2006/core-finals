@@ -69,7 +69,7 @@ body{
 
 /*HOME*/
 .home{
-    background-image: url(images/ss.png);
+    background-image: url(images/bg.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -200,7 +200,7 @@ body{
 
 /*EBOOKS*/
 .book{
-    background-image: url(images/e.png);
+    background-image: url(images/meko.jpg);
     background-size: cover;
     background-position: top;
     height: 78%;
