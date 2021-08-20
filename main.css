@@ -239,6 +239,7 @@ body{
 .int .box1{
     background-color: var(--five);
     padding: 3%;
+    margin: 2%;
 }
 
 .int .box1 .bod{
@@ -265,6 +266,7 @@ body{
 .int .box2{
     background-color: var(--whity);
     padding: 3%;
+    margin: 2%;
 }  
 
 .int .box2 .bod{
