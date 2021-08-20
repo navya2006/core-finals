@@ -100,13 +100,13 @@ body{
 }
 
 .subject1 h1{
-  color: var(--black);
+  color: var(--secondary-color);
   font-size: 23px;
   font-family:'Poiret One', cursive;
 }
 
 .subject1 p{
-  color: var(--black);
+  color: var(--secondary-color);
   font-size: 19px;
   font-family: 'Open Sans', sans-serif;
   text-align: right;
@@ -119,19 +119,19 @@ body{
 
 /*2*/
 .dash .sub2{
-  background-color: var(--four);
+  background-color: #5b5ab3;
   border-radius: 5%;
   padding: 2%;
 }
 
 .sub2 h1{
-  color: var(--black);
+  color: var(--secondary-color);
   font-size: 23px;
   font-family:'Poiret One', cursive;
 }
 
 .sub2 p{
-  color: var(--black);
+  color: var(--secondary-color);
   font-size: 19px;
   font-family: 'Open Sans', sans-serif;
   text-align: right;
@@ -160,7 +160,7 @@ body{
 /*BOX 1*/
 .box1{
   padding: 5%;
-  background-color: var(--four);
+  background-color: #5b5ab3;
   text-align: center;
   border-radius: 5%;
 }
@@ -188,7 +188,7 @@ body{
 /*Box2*/
 .box2{
   padding: 5%;
-  background-color: var(--five);
+  background-color: #9698d5;
   text-align: center;
   border-radius: 5%;
 }
@@ -216,7 +216,7 @@ body{
 /*Box 3*/
 .box3{
   padding: 5%;
-  background-color: var(--three);
+  background-color: #ff808b;
   text-align: center;
   border-radius: 5%;
 }
@@ -240,3 +240,35 @@ body{
   color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
 }
+
+/*ASSESSMENTS*/
+.assess{
+  padding: 10%;
+}
+
+.assess p{
+  color: var(--four);
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/*STUDY*/
+.study{
+  padding: 5%;
+}
+
+.study h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  padding-bottom: 1%;
+  color: var(--five);
+  padding-top: 4%;
+}
+
+.study img{
+  height: 200px;
+  width: 150px;
+  margin: 3%;
+}
+
