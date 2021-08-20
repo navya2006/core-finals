@@ -1,0 +1,82 @@
+:root{
+    --primary-color: #cd4236;
+    --secondary-color: #f5f5f5;
+    --three: #d2544a;
+    --four: #6f8197;
+    --five: #1c375b;
+    --black: #000;
+    --light: #111;
+    --light-white: #c0c2c0;
+    --whity: #e3e3e3;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.board{
+    background-color: var(--whity);   
+    margin: 5%;
+    border-radius: 5%;
+}
+
+/*SIDENAV*/
+.sidenav {
+    height: 80%;
+    width: 350px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 5%;
+  }
+  
+  .sidenav a {
+    padding:4%;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--four);
+    display: block;
+    margin-right: 17%;
+    margin-left: 17%;
+    transition: 0.4s;
+  }
+
+  .icon{
+    font-size: 20px;
+    color: var(--four);
+    padding: 3%;
+  }
+
+.bar{
+  padding: 5%;
+}
+
+.logo{
+      height: 15%;
+      width: 50%;
+  }
+  
+  
+  .sidenav a:hover {
+    background-color: rgba(210, 84, 74, 0.4);
+    border-right: var(--three) 5px solid;
+    border-radius: 10%;
+  }
+
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
