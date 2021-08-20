@@ -38,6 +38,33 @@ body{
     overflow-x: hidden;
 }
 
+/*NAVBAR*/
+
+.nav {
+	background-color:var(--three);
+	height:auto;
+	width:100%;
+	top:0;
+	z-index:999;
+	padding-top:1vw;
+	box-shadow: 2px 4px 16px 2px rgba(0, 0, 0, 0.7);
+}
+
+.nav h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size:2vw;
+	color:var(--black);
+	text-align:left;
+	padding:1vw;
+}
+
+.nav img {
+	height:110px;
+	width:90px;
+	padding:1vw;
+	padding-left:2vw;
+}
+
 /*HOME*/
 .home{
     background-image: url(images/templol.png);
