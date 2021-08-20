@@ -272,3 +272,178 @@ body{
   margin: 3%;
 }
 
+/**/
+.meter {
+  box-sizing: content-box;
+  height: 20px; /* Can be anything */
+  position: relative;
+  margin: 60px 0 20px 0; /* Just for demo spacing */
+  background: #555;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(43, 194, 83);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43, 194, 83) 37%,
+    rgb(84, 240, 84) 69%
+  );
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+.meter > span:after,
+.animate > span > span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.animate > span:after {
+  display: none;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+.orange > span {
+  background-image: linear-gradient(#f1a165, #f36d0a);
+}
+
+.red > span {
+  background-image: linear-gradient(#f0a3a3, #f42323);
+}
+
+.nostripes > span > span,
+.nostripes > span::after {
+  background-image: none;
+}
+
+#page-wrap {
+  width: 490px;
+  margin: 80px auto;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0 0 30px;
+}
+pre {
+  background: #000;
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*WELCOME*/
+.pink{
+  padding: 1%;
+  margin: 4%;
+  background-color: rgba(255, 128, 139,0.5);
+  border-radius: 5%;
+}
+
+.pink h1{
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pink p{
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*1*/
+.dabbe .box1{
+  background-color: var(--three);
+  border-radius: 5%;
+  padding: 2%;
+  margin: 7%;
+}
+
+.box1 h1{
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-family:'Poiret One', cursive;
+}
+
+.box11 p{
+  color: var(--secondary-color);
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+}
+
+.box1 .icon{
+  font-size: 35px;
+  color: var(--whity);
+}
+
+/*2*/
+.sub2{
+  background-color: #5b5ab3;
+  border-radius: 5%;
+  padding: 2%;
+  margin: 7%;
+}
+
+.sub2 h1{
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-family:'Poiret One', cursive;
+  text-align: center;
+}
+
+.sub2 p{
+  color: var(--secondary-color);
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sub2 .icon{
+  font-size: 35px;
+  color: var(--whity);
+  text-align: center;
+}
