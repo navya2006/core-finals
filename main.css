@@ -6,6 +6,8 @@
     --five: #1c375b;
     --black: #000;
     --light: #111;
+    --light-white: #c0c2c0;
+    --whity: #e3e3e3;
 }
 
 .jarallax {
@@ -224,4 +226,63 @@ body{
     color: var(--five);
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
+
+/*INTERESTING*/
+.int{
+    background-color: var(--secondary-color);
+    padding: 5%;
+    padding-top: 7%;
+}
+
+/*BOX 1*/
+.int .box1{
+    background-color: var(--five);
+    padding: 3%;
+}
+
+.int .box1 .bod{
+    border: var(--four) 2px solid;
+    padding: 4%;
+}
+
+.int .box1 h2{
+    color: var(--secondary-color);
+    font-size: 35px;
+    font-family:'Poiret One', cursive;
+    text-align: center;
+}
+
+.int .box1 p{
+    color: var(--light-white);
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 2%;
+}
+
+/*BOX 2*/
+.int .box2{
+    background-color: var(--whity);
+    padding: 3%;
+}  
+
+.int .box2 .bod{
+    border: var(--four) 2px solid;
+    padding: 4%;
+}
+
+.int .box2 h2{
+    color: var(--five);
+    font-size: 35px;
+    font-family:'Poiret One', cursive;
+    text-align: center;
+}
+
+.int .box2 p{
+    color: var(--black);
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 2%;
 }
