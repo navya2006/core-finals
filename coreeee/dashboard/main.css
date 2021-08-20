@@ -17,18 +17,21 @@
 }
 
 body{
-    background-color: #fff;
+   background-image: url(images/smh.jpg);
+   background-size: cover;
 }
 
 .board{
     background-color: var(--whity);   
-    margin: 5%;
+    margin-top: 8%;
     border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    width: 100%;
 }
 
 /*SIDENAV*/
 .sidenav {
-    height: 80%;
+    height: 100%;
     width: 350px;
     z-index: 1;
     top: 0;
@@ -61,7 +64,7 @@ body{
 }
 
 .logo{
-      height: 15%;
+      height: 25%;
       width: 50%;
   }
   
