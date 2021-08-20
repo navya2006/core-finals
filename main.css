@@ -35,19 +35,47 @@ body{
 .home img{
     height: 85%;
     width: 85%;
-    border-left: var(--primary-color) 4px solid;
+    border-left: var(--primary-color) 6px solid;
     margin-top: 3%;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 1%;
+}
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 /*ABOUT*/
 .about{
     width: 100%;
     background-color: var(--secondary-color);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
+.about h1{
+    color: var(--five);
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    padding-bottom: 2%;
+}
+
+/*BOX1*/
 .about .box1{
     background-color: var(--three);
-    padding: 5%;
+    padding: 6%;
 }
 
 .about .box1 h2{
@@ -68,11 +96,12 @@ body{
     padding: 3%;
 }
 
+/*BOX2*/
 .about .box2{
     background-color: var(--light);
-    padding: 5%;
+    padding: 6%;
     border-bottom: var(--three) 15px solid;
-    padding-bottom: 2%;
+    padding-bottom: 2.1%;
 }
 
 .about .box2 h2{
@@ -93,9 +122,10 @@ body{
     padding: 3%;
 }
 
+/*BOX3*/
 .about .box3{
     background-color: var(--light);
-    padding: 5%;
+    padding: 6%;
 }
 
 .about .box3 h2{
@@ -116,3 +146,26 @@ body{
     padding: 3%;
 }
 
+/*BOX4*/
+.about .box4{
+    background-color: var(--four);
+    padding: 6%;
+}
+
+.about .box4 h2{
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-family:'Poiret One', cursive;
+}
+
+.about .box4 p{
+    font-size: 19px;
+    color: var(--black);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about .box4 .icon{
+    font-size: 45px;
+    color: var(--secondary-color);
+    padding: 3%;
+}
