@@ -78,6 +78,7 @@ body{
 .about .box1{
     background-color: var(--three);
     padding: 6%;
+	margin:0.5vw;
 }
 
 .about .box1 h2{
@@ -103,6 +104,7 @@ body{
     background-color: var(--light);
     padding: 6%;
     border-bottom: var(--three) 15px solid;
+	margin:0.5vw;
     padding-bottom: 2.1%;
 }
 
@@ -128,6 +130,7 @@ body{
 .about .box3{
     background-color: var(--light);
     padding: 6%;
+	margin:0.5vw;
 }
 
 .about .box3 h2{
@@ -152,6 +155,7 @@ body{
 .about .box4{
     background-color: var(--four);
     padding: 6%;
+	margin:0.5vw;
 }
 
 .about .box4 h2{
@@ -177,7 +181,7 @@ body{
     background-image: url(images/meko.jpg);
     background-size: cover;
     background-position: top;
-    height: 78%;
+    height: auto;
     width: 100vw;
     overflow-x: hidden;
     padding-top: 10%;
