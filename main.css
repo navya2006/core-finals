@@ -8,6 +8,21 @@
     --light: #111;
 }
 
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -41,28 +56,12 @@ body{
     border-radius: 1%;
 }
 
-.jarallax {
-    position: relative;
-    z-index: 0;
-}
-.jarallax > .jarallax-img {
-    position: absolute;
-    object-fit: cover;
-    /* support for plugin https://github.com/bfred-it/object-fit-images */
-    font-family: 'object-fit: cover;';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
 /*ABOUT*/
 .about{
     width: 100%;
     background-color: var(--secondary-color);
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .about h1{
@@ -168,4 +167,34 @@ body{
     font-size: 45px;
     color: var(--secondary-color);
     padding: 3%;
+}
+
+/*EBOOKS*/
+.book{
+    background-image: url(images/e.png);
+    background-size: cover;
+    background-position: top;
+    height: 78%;
+    width: 100vw;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+
+.book h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20%;
+}
+
+.text .section-hr {
+    height: 3px;
+    width: 40%;
+    background-color: var(--primary-color);
+}
+
+.text p{
+    color: var(--five);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
