@@ -31,6 +31,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 html{
     scroll-behavior:smooth;
 }
@@ -262,10 +266,106 @@ body{
     text-align: center;
 }
 
+.form h1{
+    color: var(--five);
+    font-size: 50px;
+}
+
 .int .box2 p{
     color: var(--black);
     font-size: 17px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding: 2%;
+}
+
+/*FORM*/
+.form{
+    background-image: url(images/booksss.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 7%;
+}
+
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.comment_input, .comment{
+    background-color:var(--secondary-color);
+    margin: 20px 0px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea {
+    background-color: transparent;
+    border: transparent solid 2px;
+    border-bottom-color: var(--five);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    transition: 0.25s;
+}
+
+input:focus, textarea:focus {
+    border-bottom-color: rgb(100, 100, 100);
+}
+
+.btn{
+    border: rgb(100, 100, 100) solid 2px;
+    color: #000;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.25s;
+    width: auto;
+}
+
+.btn:hover{
+    background-color: var(--five);
+    color: #fff;
+}
+
+/*Footer*/
+.footer{
+    width: 100%;
+	background-color: var(--whity);
+	text-align: center;
+	padding-bottom:6vh;
+}
+
+
+.footer h1{
+	text-align: center;
+	color: var(--primary-color);
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    letter-spacing: 0.5vw;
+    padding-top: 5%;
+	text-decoration:none !important;
+}
+
+.footer h2{
+    color: var(--five);
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+    padding-top: 0.5vw;
+    text-align: center;
+    letter-spacing: 0.4;
+	text-decoration:none !important;
+}
+
+.footer p{
+    color: var(--four);
+    font-family: 'Hind Vadodara', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0.3vw;
+	text-decoration:none !important;
 }
