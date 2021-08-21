@@ -103,11 +103,6 @@ body{
 	color: var(--primary-color);
 }
 
-.navb .logo{
-    height: 50px;
-    width: 50px;
-}
-
 .sidenav {
 	height:100%;
 	width:0%;
