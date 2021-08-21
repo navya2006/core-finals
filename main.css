@@ -103,9 +103,9 @@ body{
 .about .box2{
     background-color: var(--light);
     padding: 6%;
-    border-bottom: var(--three) 15px solid;
+    border-bottom: var(--three) 25px solid;
 	margin:0.5vw;
-    padding-bottom: 2.1%;
+    padding-bottom: 10%;
 }
 
 .about .box2 h2{
@@ -130,6 +130,7 @@ body{
 .about .box3{
     background-color: var(--light);
     padding: 6%;
+    padding-bottom: 42%;
 	margin:0.5vw;
 }
 
@@ -155,6 +156,7 @@ body{
 .about .box4{
     background-color: var(--four);
     padding: 6%;
+    padding-bottom: 35%;
 	margin:0.5vw;
 }
 
@@ -184,7 +186,8 @@ body{
     height: auto;
     width: 100vw;
     overflow-x: hidden;
-    padding-top: 10%;
+    padding-top: 12%;
+    padding-bottom: 5%;
 }
 
 .book h1{
