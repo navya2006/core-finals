@@ -7,7 +7,7 @@ const GOODBYE = ["BYE", "SEE YOU LATER", "GOTTA GO", "ADIOS", "SAYONARA", "BBIE"
 
 const GREETINGS = ["WHATS UP", "HOW ARE YOU", "MORNING", "AFTERNOON", "EVENING", "SLEEP", "GOOD"];
 
-const NAME = ["WHO ARE YOU", "CODED", "PROGRAMMED","YOUR NAME"]
+const NAME = ["WHO", "CODED", "PROGRAMMED","YOUR NAME"]
 
 const HOW = ["HOW", "WORK", "PLAN"]
 
@@ -134,7 +134,7 @@ $("#submit").click(function(){
                 
                     // Return if common element found 
                     var para = document.createElement("p");
-                    var text = document.createTextNode("I am the Voterflux bot! Programmed with <3 by Hanuman :)");
+                    var text = document.createTextNode("I am your personalised chat bot, you have 3 assignments due yet :))");
                     para.className = "bottext";
                     para.appendChild(text);
                     var invitext = document.getElementById("invitext");
@@ -160,7 +160,7 @@ $("#submit").click(function(){
                 
                     // Return if common element found 
                     var para = document.createElement("p");
-                    var text = document.createTextNode("The technology behind VoterFlux relies on the power lines reaching the farthest corners of our nation. Electricity is a utility we can proudly say, every American has access to. So in such a scenario, why not use the most valuable asset we have which connects our country's furthest corners");
+                    var text = document.createTextNode("I am your personalised chat bot, you have 3 assignments due yet :))");
                     para.className = "bottext";
                     para.appendChild(text);
                     var invitext = document.getElementById("invitext");
@@ -185,7 +185,7 @@ $("#submit").click(function(){
                 
                     // Return if common element found 
                     var para = document.createElement("p");
-                    var text = document.createTextNode("VoterFlux is an innovative alternate solution to in-person voting and mail-in ballots. In the light of the drastically changed unprecedented conditions due to this pandemic, we present to you an easy alternate to the  stated problem.");
+                    var text = document.createTextNode("I am your personalised chat bot, you have 3 assignments due yet :))");
                     para.className = "bottext";
                     para.appendChild(text);
                     var invitext = document.getElementById("invitext");
