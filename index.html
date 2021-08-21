@@ -7,6 +7,7 @@
         <link href="main.css" type="text/css" rel="stylesheet">
         <script src="https://unpkg.com/jarallax@1/dist/jarallax.min.js"></script>
         <script src="fontawesome.js"></script>
+        <script src="index.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,39 @@
 	
 
 <!--HOME-->
-	
+<div class="navb">
+    <div class="nav-big">
+    <a href="#home"><img class="logo" src="images/logo.png"></a>
+    <div class="bar">
+        <a href="coreeee/login.html"><b>Platform</b></a>
+        <a href="#int"><b>Mission & Vision</b></a>
+        <a href="#book"><b>Ebooks</b></a>
+        <a href="#about"><b>Updates</b></a>
+    </div>
+    </div>
+    
+    <div class="nav-small">
+        <span onclick="openNav()" class="icon">
+            <i class="fas fa-bars"></i>
+        </span>
+    </div>
+</div>
+
+<div id="sidenav" class="sidenav">
+<center>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home"><i class="fas fa-home"></i></a>
+        <a href="#about"><b>Updates</b></a>
+        <a href="#book"><b>Ebooks</b></a>
+        <a href="#int"><b>Mission & Vision</b></a>
+        <a href="coreeee/login.html"><b>Platform</b></a>
+    </center>
+</div>
+
         <div class="jarallax home" data-jarallax data-speed="0.4" id="home">
             <center>
                 <img src="images/bg.jpg">
+                <div class="nav"></div>
             </center>
         </div>
         <div class="about" id="about">
@@ -66,7 +96,7 @@
             </div>
         </div>
 
-        <div class="jarallax book" data-jarallax data-speed="0.4" id="home">
+        <div class="jarallax book" data-jarallax data-speed="0.4" id="book">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-4">
@@ -82,7 +112,7 @@
             </div>
         </div>
 
-        <div class="int">
+        <div class="int" id="int">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
